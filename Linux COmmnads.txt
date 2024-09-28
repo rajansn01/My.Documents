@@ -1,0 +1,32 @@
+Linux Commands
+
+1. cat /etc/os-release
+2. echo $SHELL and cat /etc/shells
+3. lscpu
+4. free -m
+5. uname
+6. hostname -i
+7. wget https://download.oracle.com/java/23/latest/jdk-23_linux-x64_bin.tar.gz
+8. tar -zxvf <tar file>
+9. export PATH=$PATH:<path>
+10. dotnet --list-sdks
+11. dotnet --list-runtimes
+12. 
+    wget https://packages.microsoft.com/config/debian/12/packages-microsoft-prod.deb -O packages-microsoft-prod.deb
+	sudo dpkg -i packages-microsoft-prod.deb
+	rm packages-microsoft-prod.deb
+
+    sudo apt-get update && \
+    sudo apt-get install -y dotnet-sdk-8.0
+	
+	sudo apt-get update && \
+    sudo apt-get install -y aspnetcore-runtime-8.0
+	
+	git config --global user.email "rajansn01@gmail.com"
+   git config --global user.name "rajansn01"
+   
+   git checkout -b master
+git remote add origin "your repo link"
+git push -u origin main 
+	
+	
