@@ -1,0 +1,16 @@
+sudo yum install wget
+
+cd ~
+wget --no-cookies --no-check-certificate --header "Cookie: gpw_e24=http%3A%2F%2Fwww.oracle.com%2F; oraclelicense=accept-securebackup-cookie" "https://download.oracle.com/java/17/latest/jdk-17_linux-x64_bin.rpm"
+
+sudo yum localinstall jdk-17_linux-x64_bin.rpm
+
+rm ~/jdk-17_linux-x64_bin.rpm
+
+sudo alternatives --config java
+
+sudo sh -c "echo export JAVA_HOME=/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.322.b06-2.el8_5.x86_64/jre >> /etc/environment"
+
+Reference :
+Java:  https://www.digitalocean.com/community/tutorials/how-to-install-java-on-centos-and-fedora
+Dotnet: https://learn.microsoft.com/en-us/dotnet/core/install/linux-rhel#supported-distributions
