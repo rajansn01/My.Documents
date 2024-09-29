@@ -1,3 +1,7 @@
+--------------------------------------------------------------------------------------
+                                      Java
+--------------------------------------------------------------------------------------
+
 sudo yum install wget
 
 cd ~
@@ -11,6 +15,18 @@ sudo alternatives --config java
 
 sudo sh -c "echo export JAVA_HOME=/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.322.b06-2.el8_5.x86_64/jre >> /etc/environment"
 
-Reference :
+--------------------------------------------------------------------------------------
+                                      DotNet
+--------------------------------------------------------------------------------------
+https://dot.net/v1/dotnet-install.sh
+
+
+
+
+
+--------------------------------------------------------------------------------------
+                                      Reference
+--------------------------------------------------------------------------------------
+
 Java:  https://www.digitalocean.com/community/tutorials/how-to-install-java-on-centos-and-fedora
 Dotnet: https://learn.microsoft.com/en-us/dotnet/core/install/linux-rhel#supported-distributions
