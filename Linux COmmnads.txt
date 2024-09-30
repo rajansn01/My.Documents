@@ -28,5 +28,8 @@ Linux Commands
    git checkout -b master
 git remote add origin "your repo link"
 git push -u origin main 
+
+13: https://simpledns.plus/lookup-dg
+14: https://whatismyipaddress.com/
 	
 	
